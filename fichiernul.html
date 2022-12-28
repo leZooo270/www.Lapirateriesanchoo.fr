@@ -1,0 +1,61 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        </head>
+        <body>
+        <header>
+            <h1><center>salut a toi jeune entrepreneur</center></h1>
+            <br>
+            <h2><strong><center>Formulaire</center></strong></h2>
+            <link rel="stylesheet" href="stylesheet.css">
+            <form action="action.php" method="post">
+                <center><fieldset>
+                    <div>
+                        <label for="name">Nom </label><input id="name" type="text" placeholder="Entrer votre nom"/>
+                    </div>
+                    <br>
+                    <div>
+                    <label for="age">Age </label>
+                    <input id="age" max="99" min="18" name="age" step="1" type="number" /><br />
+                    </div>
+                    <br>
+                    <div>
+                    <p><strong>Entrer votre genre svp :</strong></p>
+                    <label for="gender">Genre </label>
+                    <select name="gender" id="gendre">
+                        <option value="female">Femme</option>
+                        <option value="male">Homme</option>
+                        <option selected value="non précisé">Non précisé</option>
+                    </select><br />
+                    </div>
+                    <br>
+                    <p><strong>Vos commentaires</strong></p>
+                    <div>
+                    <textarea placeholder="ex: ton site il est claqué" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                    <label><input name="terms" type="checkbox" value="tandc" />Accepter les conditions générales</label>
+                    </div>
+                    <br>
+                    <div>
+                    <button type="submit" value="Valider" />Envoyer</form>
+                    </div>
+                    <br>
+                    <div>
+                        <p>Suivez-nous sur instagram :</p>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/antonin_le_chacal/" title="lien instagram" target="_blank">
+                            <img src="logo-insta.jpg" width="50" height="50">
+                        </a>
+                    </div>
+            </fieldset></center>
+            </form>
+        </header>
+        <footer>
+            <h3>Rejoins la piraterie Sancho !</h3>
+        </footer>
+
+        </body>
